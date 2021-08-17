@@ -1490,8 +1490,6 @@ void initializeTPSPaymentNetworksWithConditionalMappings() {
             return @"diners";
         case STPCardBrandMasterCard:
             return @"mastercard";
-        case STPCardBrandUnionPay:
-            return @"unionpay";
         case STPCardBrandUnknown:
         default:
             return @"unknown";
